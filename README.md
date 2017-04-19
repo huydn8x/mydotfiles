@@ -40,6 +40,11 @@
 - bôi đen theo hàng dọc: ctrl + v, bôi hàng dọc xong muốn xóa thì d, xong muốn viết text hàng loạt thì shift + i, viết xong ấn escape 2 lần là nó apply cho tất cả hàng dọc mà mình chọn
 - :table [tên file] : mở file bằng tab mới, nếu muốn chuyển thì ấn g+t
 - xóa từ con trỏ đến hết dòng: d + shift + $
+- nhân bản cái vừa gõ ra nhiều dòng: ctrl + v để chọn dọc số dòng muốn append, sau đó shift + i để insert mode -> gõ comment hoặc gì đó -> esc 2 lần là ok
+- cú pháp kết hợp với phím i:
+   - c + i + [ký tự bao ngoài word muốn thay đổi]. for example: c+i+' = change in ' => đổi text trong dấu '
+   - Y + i + [ký tự bao ngoài word muốn copy]. for example: Y+i+' = copy in ' => copy text trong cụm dấu '
+   - ..etc...cái gì cũng kết hợp dc với + i
 
 ### Cách dùng tmux:
 
