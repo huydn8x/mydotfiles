@@ -1,5 +1,16 @@
-# my dot files
-### vim wiki:
+# My dot files
+
+### Install vim:
+
+```
+cd ~
+wget https://raw.githubusercontent.com/huydn8x/mydotfiles/master/vimrc
+mv vimrc .vimrc
+vim // auto install in first time
+vim // manual install type command :PluginInstall
+```
+
+### Vim wiki:
 
 - các phím di chuyển
   - trái: h
@@ -8,6 +19,8 @@
   - lên: k
 - chuyển con trỏ về cuối dòng: $
 - chuyển con trỏ về đầu dòng: 0
+- di chuyển lên đầu file: gg
+- di chuyển xuống cuối file: shift + g
 - di chuyển đến cuối dòng và chuyển mode insert: shift + a
 - w: nhẩy ra khỏi word
 - e: nhẩy đến chữ cuối của word
